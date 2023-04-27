@@ -1,0 +1,16 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+///
+///
+
+@use "./components/faq-component/faq-component.scss";
+
+#home-page {
+  height: 100%;
+  background-color: var(--canvas-color);
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,62 @@
+/// Root Styles file
+/// Here we define all the root variables we need for our project.
+/// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
+
+:root {
+  --primary-color: var(--color-red-500);
+  --primary-color-dark: var(--color-red-700);
+  --primary-color-light: var(--color-red-300);
+
+  --background-color: var(--color-black-800);
+  --background-color-primary-hover: #281b1a;
+
+  --on-background-color: var(--color-white-100);
+
+  --canvas-color: var(--color-black-900);
+  --border-color: var(--color-black-700);
+
+  --surface-color: var(--color-content-900);
+  --on-surface-color: var(--color-white-100);
+}
+
+:root {
+  --color-red-100: #f1c1be;
+  --color-red-200: #e89793;
+  --color-red-300: #df6d67;
+  --color-red-400: #d84e47;
+  --color-red-500: #d12f26;
+  --color-red-600: #cc2a22;
+  --color-red-700: #c6231c;
+  --color-red-800: #c01d17;
+  --color-red-900: #b5120d;
+
+  --color-white-100: #ffffff;
+  --color-white-200: #f5f5f5;
+  --color-white-300: #f0f0f0;
+  --color-white-400: #dedede;
+  --color-white-500: #c2c2c2;
+  --color-white-600: #979797;
+  --color-white-700: #818181;
+  --color-white-800: #606060;
+  --color-white-900: #3c3c3c;
+
+  --color-black-100: #e9e9e9;
+  --color-black-200: #d9d9d9;
+  --color-black-300: #c4c4c4;
+  --color-black-400: #9d9d9d;
+  --color-black-500: #7b7b7b;
+  --color-black-600: #555555;
+  --color-black-700: #434343;
+  --color-black-800: #262626;
+  --color-black-900: #000000;
+
+  --color-content-100: #f2f2f2;
+  --color-content-200: #e8e8e8;
+  --color-content-300: #d8d8d8;
+  --color-content-400: #b4b4b4;
+  --color-content-500: #949494;
+  --color-content-600: #6c6c6c;
+  --color-content-700: #595959;
+  --color-content-800: #3a3a3a;
+  --color-content-900: #1a1a1a;
+}
